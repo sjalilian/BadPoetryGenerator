@@ -64,7 +64,7 @@ class PoemGenerator:
         if load_markov_chain:
             try:
                 self.load_markov_chain(model_name, "Dataset/MarkovChain")
-                print("Model loaded successfully.")
+                print("Model loaded successfully. \n\n")
             except FileNotFoundError:
                 print("Model file not found. Make sure the model exists.")
                 return
