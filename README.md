@@ -5,7 +5,7 @@ neural network to generate more coherent poetry.
 
 
 #LSTM
-The model includes an embedding layer, an LSTM layer for learning word patterns, and a dense layer with softmax activation to predict the next word in a sequence. model uses of TensorFlow and Keras libraries. Also, NumPy helps with number calculations, like using the np.argmax() function to find the position of the highest value in the predicted word list, which tells the model what the next word should be.
+The model includes an embedding layer, an LSTM layer for learning word patterns, and a dense layer with softmax activation to predict the next word in a sequence. The model uses of TensorFlow and Keras libraries and NumPy which helps in number calculations, like using the np.argmax() function to find the position of the highest value in the predicted word list, which tells the model what the next word should be.
 
 
 This is a project for the course on Computational Creativity at the [Master's program in Computer Science at the Leiden university](https://www.universiteitleiden.nl/en/education/study-programmes/master/computer-science) given by [Prof. Rob Saunders](https://www.universiteitleiden.nl/en/staffmembers/rob-saunders#tab-1)
