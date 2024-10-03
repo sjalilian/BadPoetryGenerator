@@ -43,6 +43,7 @@ To train the markov chain model do the following:
    to whatever order your saved model was trained for if you want to use a pre-trained model).
 
 To build the model and directly use it do the following:
+
 3. Set `build_model` to `True`
 4. Set `save_model` to `True`
 5. Set the `model_filename` to the desired filename.
