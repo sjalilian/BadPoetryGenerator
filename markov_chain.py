@@ -128,6 +128,6 @@ if __name__ == "__main__":
     poems_file = "Dataset/Cleaned/cleaned_poems.json"  # Path to your .json file
     # Make sure to change the "order" to the order of the model if you do not decide to load the model in. Because the
     # code still relies on this parameter to check if it needs to use the higher order or first order start word selection
-    generator = PoemGenerator(poems_file, "markov_chain_1st_order.pkl", order=2, save_model=True, build_model=False)
-    generated_poem = generator.generate_poem(max_words=50, load_markov_chain=True, model_name="markov_chain_2nd_order.pkl")
+    generator = PoemGenerator(poems_file, "markov_chain_1st_order.pkl", order=1, save_model=True, build_model=False)
+    generated_poem = generator.generate_poem(max_words=50, load_markov_chain=True, model_name="markov_chain_1st_order.pkl")
     print(generated_poem)
