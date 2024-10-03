@@ -1,9 +1,11 @@
 # Bad Poetry Generator
 Generating poetry using Markov Chains based on Emily Dickinson's poetry from [Gutenberg.org](https://www.gutenberg.org/files/12242/12242-h/12242-h.htm).
-Approaches like vanilla and higher order Markov chains will be explored. 
+Approaches like vanilla and higher-order Markov chains will be explored. 
 
 
-#LSTM
+LSTM
+
+
 The model includes an embedding layer, an LSTM layer for learning word patterns, and a dense layer with softmax activation to predict the next word in a sequence. The model uses of TensorFlow and Keras libraries and NumPy which helps in number calculations, like using the np.argmax() function to find the position of the highest value in the predicted word list, which tells the model what the next word should be.
 
 
